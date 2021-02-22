@@ -16,16 +16,19 @@ currentChar = source[end];
 sourceMap.put(currentChar,1);
 minSubStr = "";
 
-while(start<source.length || end<source.length-1){
-    matchedCharacter = getNumberOfMatchedCharacter(targetMap,sourceMap,currentChar,matchedCharacter)
-    if((matchedCharacter==expectedMatchedCharacter && start<end-1) || (end == source.lenght-1)){
-        minSubStr = getMinSubString(minSubStr,currentSubStr);
-        start++;
-        update sourceMap;
-    } else{
-        end++;
-        update sourceMap;
+//Double pointer coding template
+j = 0
+for i -> source.length-1{
+    while(j<source.length-1 && expectedMatchedCharacter != getMatchedCount()){
+        j++;
+        add source[j] to sourceMap
     }
+
+    if(expectedMatchedCharacter == getMatchedCount()){
+        getMinSubStr();
+    }
+
+    delete source[i] from sourceMap
 }
 
 return minSubStr;
