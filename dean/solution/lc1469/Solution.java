@@ -1,3 +1,8 @@
+package dean.solution.lc1469;
+
+import java.util.HashMap;
+import java.util.Map;
+
 public class Solution {
     static class Node{
         public int value;

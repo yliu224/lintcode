@@ -1,0 +1,32 @@
+special case processing
+    1.source is 0
+    2.source.length < target.length
+    return "";
+
+    source is 1 and target is 1
+
+targetMap<Character,Integer> = target;
+sourceMap<Character,Integer> = new HashMap<>();
+
+start = 0;
+end = 0;
+expectedMatchedCharacter = targetMap.size();//How many characters in target
+matchedCharacter = 0;
+currentChar = source[end];
+sourceMap.put(currentChar,1);
+minSubStr = "";
+
+while(start<source.length || end<source.length-1){
+    matchedCharacter = getNumberOfMatchedCharacter(targetMap,sourceMap,currentChar,matchedCharacter)
+    if((matchedCharacter==expectedMatchedCharacter && start<end-1) || (end == source.lenght-1)){
+        minSubStr = getMinSubString(minSubStr,currentSubStr);
+        start++;
+        update sourceMap;
+    } else{
+        end++;
+        update sourceMap;
+    }
+}
+
+return minSubStr;
+
