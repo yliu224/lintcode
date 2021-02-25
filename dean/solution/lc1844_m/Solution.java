@@ -1,4 +1,4 @@
-package dean.solution.lc1844;
+package dean.solution.lc1844_m;
 
 import java.util.HashMap;
 import java.util.Map;

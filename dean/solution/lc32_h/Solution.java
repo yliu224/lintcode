@@ -1,4 +1,4 @@
-package dean.solution.lc32;
+package dean.solution.lc32_h;
 
 import java.util.HashMap;
 import java.util.Map;

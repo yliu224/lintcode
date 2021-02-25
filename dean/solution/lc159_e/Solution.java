@@ -1,4 +1,4 @@
-package dean.solution.lc159;
+package dean.solution.lc159_e;
 
 public class Solution{
     /**
