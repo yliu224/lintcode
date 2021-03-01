@@ -1,0 +1,15 @@
+二分答案
+prefixSum[end]-prefixSum[start] >= k and end-start=x，要X尽量小
+prefixSum[end]-k >= prefixSum[start] and end-start=x, 要X尽量小
+
+单调队列
+假设window size 为3
+ 1 , 7 , 5 , 4 , 3 , 10 , 6 , 9
+[1]
+ 1  [7]
+    [7 , 5]
+    [7 , 5 , 4]
+     7  [5 , 4 , 3]
+         5 , 4 , 3   [10] 
+                     [10 , 6]
+                       6  [10 , 9]             
