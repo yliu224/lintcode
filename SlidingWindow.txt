@@ -1,0 +1,17 @@
+//init window
+for (i->n){
+    if(i<window.length){
+        sum+=array[i]
+    }
+}
+
+left=0,right=window.length
+while(right<array.length){
+    sum+=array[right]
+    sum-=array[left]
+
+    left++
+    right++
+}
+
+return sum
