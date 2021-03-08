@@ -1,11 +1,11 @@
 package dean.solution;
 
-import dean.solution.lc617_h.*;
+import dean.solution.lc1850_m.*;
 
 public class Start {
     public static void main(String[] args){
         Solution s = new Solution();
 
-        System.out.println(s.maxAverage(new int[]{1,12,-5,-6,50,3},3));
+        System.out.println(s.PickApples(new int[]{3,4,12,20,20,18,6,20,8,17},1,5));
     }
 }
