@@ -1,4 +1,4 @@
-package dean.solution.lc1219_e;
+package dean.solution.lc1219_m;
 
 import java.util.Arrays;
 
