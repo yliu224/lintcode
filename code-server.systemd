@@ -1,0 +1,15 @@
+[Unit]
+Description=Code Server
+After=network.target
+StartLimitIntervalSec=0
+[Service]
+Restart=always
+RestartSec=1
+User=root
+ExecStart=/usr/bin/code-server --link
+
+[Install]
+WantedBy=multi-user.target
+
+# Run the command to setup on boost start
+sudo systemctl enable code-server
