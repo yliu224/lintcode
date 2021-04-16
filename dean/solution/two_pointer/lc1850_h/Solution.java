@@ -1,7 +1,8 @@
-package dean.solution.lc1850_m;
+package dean.solution.two_pointer.lc1850_h;
 
 import java.util.Arrays;
 
+//隔板法的思想，重点学习！！
 public class Solution {
     public int PickApples(int[] A, int K, int L) {
         // write your code here
