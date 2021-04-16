@@ -1,0 +1,26 @@
+Queue<Node> queue = new ArrayDeque<>();
+Map<Node, Integer> distance = new HashMap<>();
+
+queue.offer(startNode)
+distance.put(startNode,0)
+
+while(!queue.isEmpty()){
+    Node node = queue.poll();
+
+    if(node is endNode){
+        break or return
+    }
+
+    for(Node neighbor: node.getNeighbers()){
+        if(distance.containsKey(neighbor)){
+            continue;
+        }
+        queue.offer(neighbor);
+        distance.put(neighbor.distance.get(node)+1);
+    }
+
+}
+
+return distance
+return distance.keySet()
+return distance.get(endNode)
