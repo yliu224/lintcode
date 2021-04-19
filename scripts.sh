@@ -3,3 +3,7 @@ upgrade_code_server(){
         cat /usr/lib/code-server/lib/vscode/product.json | sudo jq '. + {"extensionsGallery": {"serviceUrl": "https://marketplace.visualstudio.com/_apis/public/gallery","cacheUrl": "https://vscode.blob.core.windows.net/gallery/index","itemUrl": "https://marketplace.visualstudio.com/items"}}' | sudo tee /usr/lib/code-server/lib/vscode/product.json
         sudo systemctl start code-server
 }
+
+
+export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
+export PATH=$PATH:$JAVA_HOME/bin

@@ -1,11 +1,9 @@
-package dean.solution;
-
-import dean.solution.dp.lc1565_m.*;
+import union_find.lc261_h.Solution;
 
 public class Start {
     public static void main(String[] args){
         Solution s = new Solution();
 
-        System.out.println(s.modernLudo(50, new int[][]{{2,15},{10,15}}));
+        System.out.println(s.maxArea(new int[][]{{0,1},{1,1}}));
     }
 }

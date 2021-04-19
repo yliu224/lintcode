@@ -1,4 +1,4 @@
-package dean.solution.union_find.lc444_m;
+package union_find.lc444_m;
 
 import java.util.HashMap;
 import java.util.Map;
