@@ -30,7 +30,13 @@ public class Solution {
                 }
             }
         }
-        return max;
+        //处理全为1的情况
+        int uniqueUnionSize =  size.get(compressed_find(matrix[0][0])) == null ? 
+            1 :
+            size.get(compressed_find(matrix[0][0]));
+        return max == Integer.MIN_VALUE ? 
+            uniqueUnionSize :
+            max;
     }
 
     private void buildUnion(int[][] matrix){
@@ -98,15 +104,15 @@ public class Solution {
         int roota = compressed_find(a);
         int rootb = compressed_find(b);
 
+        //计数实在这个里面！！！
         if(roota!=rootb){
             union.put(roota,rootb);
+            int sizea = size.get(roota) == null ? 1:size.get(roota);
+            int sizeb = size.get(rootb) == null ? 1:size.get(rootb);
+    
+            size.put(rootb, sizea+sizeb);
+            size.put(roota, 0);
         }
-        
-        int sizea = size.get(roota) == null ? 1:size.get(roota);
-        int sizeb = size.get(rootb) == null ? 1:size.get(rootb);
-
-        size.put(rootb, sizea+sizeb);
-        size.put(roota, 0);
     }
 
     private int compressed_find(int x){

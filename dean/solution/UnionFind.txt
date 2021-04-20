@@ -1,0 +1,29 @@
+private Map<Integer,Integer> unionSet;
+private Map<Integer,Integer> setSize;
+
+
+union(int x,int y){
+    int rootX = compressed_find(x);
+    int rootY = compressed_find(y);
+
+    if(rootX != rootY){
+        union.put(rootX,rootY);
+        setSize.put(rootY,setSize(rootX) + setSize(rootY));
+    }
+}
+
+//返回自己，如果X没有找到
+compressed_find(int x){
+    int root = x
+    while(union.get(x)!=null){
+        root = union.get(x);
+    }
+
+    while(root!=x){
+        int father = union.get(x);
+        union(x,root);
+        x = father;
+    }
+
+    return root;
+}

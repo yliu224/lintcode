@@ -9,6 +9,13 @@
             "name": "Launch Start",
             "request": "launch",
             "mainClass": "Start",
+            "projectName": "lintcode_c4cc672e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Start",
+            "request": "launch",
+            "mainClass": "Start",
             "projectName": "lintcode_6e2d4ec4"
         },
         {
