@@ -1,4 +1,4 @@
-package dean.solution.lc149_m;
+package lc149_m;
 
 public class Solution {
     public int maxProfit(int[] prices) {

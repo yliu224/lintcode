@@ -1,4 +1,4 @@
-package dean.solution.two_pointer.lc390_e;
+package two_pointer.lc390_e;
 
 import java.util.Arrays;
 import java.util.List;

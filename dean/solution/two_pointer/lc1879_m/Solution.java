@@ -1,4 +1,4 @@
-package dean.solution.two_pointer.lc1879_m;
+package two_pointer.lc1879_m;
 
 import java.util.ArrayList;
 import java.util.Arrays;

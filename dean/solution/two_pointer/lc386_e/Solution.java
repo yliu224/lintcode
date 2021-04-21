@@ -1,4 +1,4 @@
-package dean.solution.two_pointer.lc386_e;
+package two_pointer.lc386_e;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package dean.solution.lc62_m;
+package lc62_m;
 
 public class Solution {
     public int search(int[] A, int target) {

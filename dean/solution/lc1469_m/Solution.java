@@ -1,4 +1,4 @@
-package dean.solution.lc1469_m;
+package lc1469_m;
 
 import java.util.HashMap;
 import java.util.Map;

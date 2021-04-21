@@ -1,4 +1,4 @@
-package dean.solution.lc183_m;
+package lc183_m;
 
 public class Solution {
     public int woodCut(int[] L, int k) {

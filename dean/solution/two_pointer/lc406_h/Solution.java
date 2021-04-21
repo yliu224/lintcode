@@ -1,4 +1,4 @@
-package dean.solution.two_pointer.lc406_h;
+package two_pointer.lc406_h;
 
 public class Solution {
     public int subarraySumII(int[] A, int start, int end) {

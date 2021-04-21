@@ -1,4 +1,4 @@
-package dean.solution.lc194_m;
+package lc194_m;
 
 import java.util.ArrayList;
 import java.util.HashMap;

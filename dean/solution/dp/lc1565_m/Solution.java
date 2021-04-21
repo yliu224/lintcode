@@ -1,4 +1,4 @@
-package dean.solution.dp.lc1565_m;
+package dp.lc1565_m;
 
 import java.util.ArrayList;
 import java.util.Arrays;

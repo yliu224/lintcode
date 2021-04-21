@@ -1,4 +1,4 @@
-package dean.solution.lc1507_h;
+package lc1507_h;
 
 import java.util.TreeMap;
 

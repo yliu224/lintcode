@@ -1,4 +1,4 @@
-package dean.solution.two_pointer.lc406_m;
+package two_pointer.lc406_m;
 
 //标准双指针模板
 public class Solution {

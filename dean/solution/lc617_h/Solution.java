@@ -1,4 +1,4 @@
-package dean.solution.lc617_h;
+package lc617_h;
 
 public class Solution {
     public double maxAverage(int[] nums, int k) {

@@ -1,4 +1,4 @@
-package dean.solution.bfs.lc677_e;
+package bfs.lc677_e;
 
 import java.util.HashSet;
 import java.util.LinkedList;

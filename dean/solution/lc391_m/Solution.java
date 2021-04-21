@@ -1,4 +1,4 @@
-package dean.solution.lc391_m;
+package lc391_m;
 
 import java.util.Arrays;
 import java.util.HashMap;

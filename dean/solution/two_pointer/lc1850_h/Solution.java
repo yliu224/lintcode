@@ -1,4 +1,4 @@
-package dean.solution.two_pointer.lc1850_h;
+package two_pointer.lc1850_h;
 
 import java.util.Arrays;
 

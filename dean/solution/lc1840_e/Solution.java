@@ -1,4 +1,4 @@
-package dean.solution.lc1840_e;
+package lc1840_e;
 
 public class Solution {
     /**

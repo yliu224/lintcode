@@ -1,4 +1,4 @@
-package dean.solution.two_pointer.lc151_h;
+package two_pointer.lc151_h;
 
 //隔板法，很重要
 public class Solution {
