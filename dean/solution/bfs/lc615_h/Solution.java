@@ -11,6 +11,7 @@ import java.util.Set;
 
 //TopSort
 public class Solution {
+    //考虑可能会有重复的边！！！
     static class Node{
         public int value;
         public List<Integer> in;
