@@ -1,4 +1,7 @@
 package dfs.lc452_m;
+
+import datastructure.TreeNode;
+
 /**
  * Definition of TreeNode:
  * public class TreeNode {
