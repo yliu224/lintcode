@@ -1,4 +1,4 @@
-package bfs.backpack.lc92_m;
+package dp.backpack.lc92_m;
 
 import java.util.Arrays;
 

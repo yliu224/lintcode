@@ -1,4 +1,4 @@
-package bfs.backpack.lc440_m;
+package dp.backpack.lc440_m;
 
 //多重背包经典
 public class Solution {
