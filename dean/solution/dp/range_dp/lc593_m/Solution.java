@@ -1,5 +1,6 @@
-package dp.range_dp.lc476_m;
+package dp.range_dp.lc593_m;
 
+//处理环的问题可以长度直接 lenX2
 public class Solution {
     /**
      * @param A: An integer array
@@ -10,14 +11,14 @@ public class Solution {
     //sum[i][j]表示i到j的和
     //k是i<k<j每个都for一遍
     private int[] prefixSum;
-    public int stoneGame(int[] A) {
+    public int stoneGame2(int[] A) {
         if(A==null || A.length==0) return 0;
 
         int len = A.length;
         buildPrefixSum(A);
-        int[][] dp=new int[len][len];
+        int[][] dp=new int[2*len][2*len];//x2
         for(int range=2;range<=len;range++){
-            for(int i=0;i+(range-1)<len;i++){
+            for(int i=0;i+(range-1)<len*2;i++){//x2
                 int j=i+(range-1);
                 int min=Integer.MAX_VALUE;
                 for(int k=i;k<j;k++){
@@ -27,13 +28,18 @@ public class Solution {
             }
         }
 
-        return dp[0][len-1];
+        int min=Integer.MAX_VALUE;
+        for(int i=0;i<len;i++){
+            min = Math.min(min,dp[i][i+len-1]);
+        }
+        return min;
     }
 
+    //注意这个build这儿要变
     private void buildPrefixSum(int[] A){
-        prefixSum = new int[A.length+1];
-        for(int i=0;i<A.length;i++){
-            prefixSum[i+1]=prefixSum[i]+A[i];
+        prefixSum = new int[(2*A.length)+1];
+        for(int i=0;i<A.length*2;i++){
+            prefixSum[i+1]=prefixSum[i]+A[i%A.length];
         }
     }
 
