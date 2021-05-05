@@ -6,16 +6,9 @@ private Map<Integer,Integer> setSize;
         int rootX = compressed_find(x);
         int rootY = compressed_find(y);
 
-        if(rootX==x){//记下来，模板化
-            setSize.put(x,1);
-        }
-        if(rootY==y){
-            setSize.put(y,1);
-        }
-
         if(rootX!=rootY){
             set.put(rootX,rootY);
-            setSize.put(rootY,setSize.get(rootX)+setSize.get(rootY));
+            setSize.put(rootY,setSize.getOrDefault(rootX,1)+setSize.getOrDefault(rootY,1));
             setSize.remove(rootX);
         }
     }
