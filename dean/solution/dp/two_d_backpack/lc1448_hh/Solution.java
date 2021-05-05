@@ -1,4 +1,4 @@
-package dp.lc1448_hh;
+package dp.two_d_backpack.lc1448_hh;
 
 public class Solution{
     private int MOD=1000000007;
