@@ -1,0 +1,10 @@
+stack = new stack;
+
+for(i->A.lenght){
+    value = i==A.length?-1:A[i]
+    while(!stack.isEmpty() && isValid(A[stack.peek()],value)){
+        stack.pop();
+        //get answer
+    }
+    stack.push(i)
+}
