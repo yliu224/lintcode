@@ -7,8 +7,8 @@ public class Solution {
      * @return: an integer
      */
      //dp[k][n] k个人抄前n本连续的书的最优解
-     //dp[k][n]=Min(Max(dp[k-1][j],sum(pages[j->end])))
-     //                       {j=1,j->end}
+     //dp[k][i]=Min(Max(dp[k-1][j],sum(pages[m])))
+     //                        {j=1,j->i} {m=j,m->i}
     public int copyBooks(int[] pages, int k) {
         int[][] dp=new int[k+5][pages.length+5];
 
