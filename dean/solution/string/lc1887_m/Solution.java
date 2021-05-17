@@ -1,7 +1,7 @@
 package string.lc1887_m;
 
 public class Solution {
-    //注意理解题目意思
+    //注意理解题目意思 
     /**
      * @param S: the string
      * @return: The numbers of strings
