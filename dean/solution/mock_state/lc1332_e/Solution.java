@@ -1,4 +1,4 @@
-package lc1332_e;
+package mock_state.lc1332_e;
 
 public class Solution {
     
