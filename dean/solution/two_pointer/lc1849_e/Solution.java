@@ -1,4 +1,4 @@
-package lc1849_e;
+package two_pointer.lc1849_e;
 
 public class Solution {
     /**

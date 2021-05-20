@@ -1,4 +1,4 @@
-package lc1507_h;
+package binary_search.lc1507_h;
 
 import java.util.TreeMap;
 

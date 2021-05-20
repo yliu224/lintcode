@@ -1,4 +1,4 @@
-package lc1219_m;
+package tier.lc1219_m;
 
 import java.util.Arrays;
 

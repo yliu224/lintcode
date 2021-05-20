@@ -1,4 +1,4 @@
-package lc1840_e;
+package mock_state.lc1840_e;
 
 public class Solution {
     /**

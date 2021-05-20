@@ -1,4 +1,4 @@
-package lc1375_m;
+package monotone_stack.lc1375_m;
 
 import java.util.HashMap;
 import java.util.Map;

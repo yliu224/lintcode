@@ -1,4 +1,4 @@
-package lc1844_m;
+package prefix_sum.lc1844_m;
 
 import java.util.HashMap;
 import java.util.Map;

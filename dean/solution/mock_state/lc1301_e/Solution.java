@@ -1,4 +1,4 @@
-package lc1301_e;
+package mock_state.lc1301_e;
 
 public class Solution {
     /**

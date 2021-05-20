@@ -1,4 +1,4 @@
-package lc1310_e;
+package prefix_sum.lc1310_e;
 
 public class Solution {
     /**
