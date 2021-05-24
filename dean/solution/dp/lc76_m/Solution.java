@@ -5,7 +5,9 @@ public class Solution {
      * @param nums: An integer array
      * @return: The length of LIS (longest increasing subsequence)
      */
-     
+    
+     //记住这道题就用dp O(n2)的复杂度
+     //leetc 300
     public int longestIncreasingSubsequence(int[] nums) {
         if(nums.length==0) return 0;
         int[] dp = new int[nums.length];
