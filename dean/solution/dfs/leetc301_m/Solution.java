@@ -2,7 +2,7 @@ package dfs.leetc301_m;
 
 import java.util.*;
 
-class Solution {
+public class Solution {
     
     private Set<String> matchedString;
     public List<String> removeInvalidParentheses(String s) {
