@@ -8,7 +8,7 @@ public class Solution {
         // ro--->r(1)-->hr(3)删除o在加h。这个就是dp[i-1][j]
         // ro--->h(2)-->hr(3)ro变成h要2步再加r。这个是dp[i][j-1]
         // r---->h(1)-->hr(2)r变成h为1再加r。这个是dp[i-1][j-1]
-        // # h r s e
+        //   # h r s e
         // # 0 1 2 3 4
         // r 1 1 1 2 3
         // o 2 2 2 2 3
