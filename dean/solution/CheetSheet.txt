@@ -3,3 +3,9 @@ int[] intArr = list.stream().mapToInt(t -> t).toArray();
 
 //int[] --> List<Integer>
 List<Integer> listNums = Arrays.stream(nums).boxed().collect(Collectors.toList());
+
+//get sum of int[]
+Arrays.stream(nums).sum()
+
+//get min of int[]
+Arrays.stream(integers).min().getAsInt();
