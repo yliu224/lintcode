@@ -1,0 +1,5 @@
+//List<Integer> --> int[]
+int[] intArr = list.stream().mapToInt(t -> t).toArray();
+
+//int[] --> List<Integer>
+List<Integer> listNums = Arrays.stream(nums).boxed().collect(Collectors.toList());
