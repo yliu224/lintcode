@@ -9,3 +9,11 @@ Arrays.stream(nums).sum()
 
 //get min of int[]
 Arrays.stream(integers).min().getAsInt();
+
+//sort List
+    results
+        .stream()
+        .sorted((a,b)->b.count-a.count)//descending order
+        .limit(3)
+        .map(w->w.word)
+        .collect(Collectors.toList());
