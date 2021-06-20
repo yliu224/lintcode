@@ -1,5 +1,7 @@
 package mock_state.leetc840_e;
 
+import java.util.*;
+
 public class Solution {
     public int numMagicSquaresInside(int[][] grid) {
         int lenI = grid.length;
