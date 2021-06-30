@@ -25,6 +25,7 @@ public class Solution {
             left++;
         }
 
+        //注意这儿的处理,不同情况下处理出来的word是不一样的 
         if (len > maxWidth) {
             left -= 2;
         } else if (left == words.length) {
