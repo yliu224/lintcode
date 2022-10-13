@@ -17,3 +17,12 @@ Arrays.stream(integers).min().getAsInt();
         .limit(3)
         .map(w->w.word)
         .collect(Collectors.toList());
+
+//compareTo(T t){
+    if(this.number==p.number){
+        //a,b,c
+        return this.pattern.compareTo(p.pattern);
+    }
+    //3,2,1
+    return p.number-this.number;
+}
