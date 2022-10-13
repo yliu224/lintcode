@@ -1,6 +1,10 @@
+
+//Stack 里面放的是index
+
 stack = new stack;
 
 for(i->A.lenght){
+    //这是一个特殊值，用来清空stack
     value = i==A.length?-1:A[i]
     while(!stack.isEmpty() && isValid(A[stack.peek()],value)){
         stack.pop();
