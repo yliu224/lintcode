@@ -3,6 +3,7 @@ package monotone_stack.lc456;
 import java.util.Stack;
 
 public class Solution {
+    //多思考一些edge case
     public boolean find132pattern(int[] nums) {
         Stack<Integer> stack = new Stack<>();
         for (int i = 0; i < nums.length; i++) {
