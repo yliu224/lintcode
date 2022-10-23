@@ -1,0 +1,22 @@
+//ArraySort
+Arrays.sort(array,(a,b)->a-b)//ascending order
+Arrays.sort(array,(a,b)->b-a)//descending order
+
+//LinkedList
+class{
+    int value;
+    Node parent;
+    Node child;
+}
+//空的linkedList一定是 root <--> tail
+//定义这两个Helper function 很有用
+private void remove(Node n) {
+    n.parent.child = n.child;
+    n.child.parent = n.parent;
+}
+private void insert(Node a, Node b, Node c) {
+    a.child = b;
+    c.parent = b;
+    b.parent = a;
+    b.child = c;
+}
