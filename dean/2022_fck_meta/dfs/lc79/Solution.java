@@ -49,6 +49,7 @@ public class Solution {
         int i = getI(cur);
         int j = getJ(cur);
 
+        //注意这儿是从0开始！！！
         switch (dir) {
             case 0 -> i++;
             case 1 -> i--;
