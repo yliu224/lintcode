@@ -4,6 +4,7 @@ public class Solution {
     public int minimumAverageDifference(int[] nums) {
         long[] prefixSum = new long[nums.length + 5];
 
+        //注意这儿是从0开始
         prefixSum[0] = 0;
         for (int i = 0; i < nums.length; i++) {
             prefixSum[i + 1] = prefixSum[i] + nums[i];
