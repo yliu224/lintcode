@@ -50,6 +50,7 @@ public class Solution {
         int[] flatBoard = new int[ilen * jlen + 1];
         int index = 1;
         for (int i = ilen - 1; i >= 0; i--) {
+            //注意这儿是反着build的
             if ((ilen - i) % 2 == 1) {
                 for (int j = 0; j < jlen; j++) {
                     flatBoard[index++] = board[i][j];
