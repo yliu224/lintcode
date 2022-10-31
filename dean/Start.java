@@ -1,9 +1,8 @@
-import sort.lc2268.Solution;
+import bfs_with_state.lc847.Solution;
 
 public class Start {
     public static void main(String[] args){
         Solution c = new Solution();
-        //c.suggestedProducts(new String[]{"mobile","mouse","moneypot","monitor","mousepad"},"moue");
-        c.minimumKeypresses("heelo");
+        c.shortestPathLength(new int[][]{{}});
     }
 }
