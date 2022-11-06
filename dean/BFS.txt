@@ -1,4 +1,4 @@
-Queue<Node> queue = new ArrayDeque<>();
+Queue<Node> queue = new LinkedList<>();
 Map<Node, Integer> distance = new HashMap<>();
 
 queue.offer(startNode)
