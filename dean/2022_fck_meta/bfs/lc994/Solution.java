@@ -1,6 +1,6 @@
 package bfs.lc994;
 
-import java.util.(Queue);
+import java.util.*;
 
 public class Solution {
     private Queue<int[]> q = new LinkedList<>();
