@@ -1,4 +1,4 @@
-package sort.lc33;
+package binary_search_result.lc33;
 
 public class Solution {
     public int search(int[] nums, int target) {

@@ -1,4 +1,4 @@
-package two_pointer.lc704;
+package binary_search_result.lc704;
 
 public class Solution {
     public int search(int[] nums, int target) {
