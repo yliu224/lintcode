@@ -21,6 +21,7 @@ public class Solution {
         Map<String, Food> foods = new HashMap<>();
         for (int i = 0; i < recipes.length; i++) {
             Food f = foods.computeIfAbsent(recipes[i], Food::new);
+            //注意j++
             for (int j = 0; j < ingredients.get(i).size(); j++) {
                 Food ing = foods.computeIfAbsent(ingredients.get(i).get(j), Food::new);
                 f.inCome.add(ing.name);
@@ -40,6 +41,7 @@ public class Solution {
             Food cur = q.poll();
             for (String s : cur.outCome) {
                 Food next = foods.get(s);
+                //注意这个是cur.name
                 next.inCome.remove(cur.name);
                 if (next.inCome.size() == 0) {
                     q.add(next);
