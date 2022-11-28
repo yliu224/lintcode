@@ -1,14 +1,15 @@
 import two_pointer.lc475.Solution;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class Start {
     public static void main(String[] args) {
         Solution c = new Solution();
 //        c.findRadius();
-        String[] str = new String[]{"dtewe","ddd","dds"};
-        System.out.println(Arrays.toString(str));
+        List<String> test = new ArrayList<>();
+        test.add("dd");
+        test.add("cd");
+        System.out.println(test.toString());
     }
 }
