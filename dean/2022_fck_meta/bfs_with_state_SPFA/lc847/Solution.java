@@ -1,4 +1,4 @@
-package bfs_with_state.lc847;
+package bfs_with_state_SPFA.lc847;
 
 import java.util.ArrayDeque;
 import java.util.HashSet;

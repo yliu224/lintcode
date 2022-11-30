@@ -1,4 +1,4 @@
-package bfs_with_state.lc1102;
+package bfs_with_state_SPFA.lc1102;
 
 import java.util.HashSet;
 import java.util.PriorityQueue;
