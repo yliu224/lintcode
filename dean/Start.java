@@ -57,12 +57,10 @@ public class Start {
 //
     public static void main(String[] args) throws InterruptedException {
         BlockingQueue<String> seed = new LinkedBlockingQueue<>();
-        seed.addAll()
     }
     static void DFS(StringBuilder sb){
         while(sb.length()!=0){
             Set<String> dedup = ConcurrentHashMap.newKeySet();
-            dedup.add()
             System.out.println(sb.toString());
             if(sb.charAt(0)=='c'){
                 sb.deleteCharAt(0);
