@@ -59,6 +59,8 @@ public class Start {
         BlockingQueue<String> seed = new LinkedBlockingQueue<>();
     }
     static void DFS(StringBuilder sb){
+        List<Object> ls = new ArrayList<>();
+        ls.stream().mapToInt(x-> (int) x).sum();
         while(sb.length()!=0){
             Set<String> dedup = ConcurrentHashMap.newKeySet();
             System.out.println(sb.toString());
