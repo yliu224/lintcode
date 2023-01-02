@@ -8,53 +8,6 @@ public class Start {
     static int counter = 0;
     static ReentrantLock lock = new ReentrantLock();
 
-    //    public static void main(String[] args) throws InterruptedException {
-//
-//        ExecutorService service = Executors.newSingleThreadExecutor();
-//        ExecutorService service2 = Executors.newSingleThreadExecutor();
-//        service.submit(()->{
-//            for(int i=0;i<20;i++){
-//                if(lock.tryLock()){
-//                    System.out.println("Hello1 "+counter++);
-//                    lock.unlock();
-//                }
-//
-//            }
-//        });
-//        TreeMap<>
-//        service2.submit(()->{
-//            for(int i=0;i<20;i++){
-//                if(lock.tryLock()) {
-//                    System.out.println("Hello2 " + counter++);
-//                    lock.unlock();
-//                }
-//            }
-//        });
-//        Thread.sleep(3000);
-//        System.out.println("Shutdown");
-//        service.shutdownNow();
-//        service2.shutdownNow();
-//    }
-//    static class Counter {
-//        String name;
-//        int count;
-//        Counter(String name,int count){
-//            this.name = name;
-//            this.count = count;
-//        }
-//
-//        @Override
-//        public boolean equals(Object obj) {
-//            Counter c = (Counter) obj;
-//            return c.name.equals(this.name) && c.count==this.count;
-//        }
-//
-//        @Override
-//        public String toString() {
-//            return name+":"+count;
-//        }
-//    }
-//
     public static void main(String[] args) throws InterruptedException {
         BlockingQueue<String> seed = new LinkedBlockingQueue<>();
     }
