@@ -28,3 +28,7 @@ Arrays.stream(integers).min().getAsInt();
     //3,2,1
     return p.number-this.number;
 }
+
+// Integer to bites
+String result = Integer.toBinaryString(input);
+String resultWithPadding = String.format("%32s", result).replaceAll(" ", "0");
